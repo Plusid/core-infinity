@@ -1,0 +1,102 @@
+[
+  {
+    "height": 1,
+    "reward": 1,
+    "activeDelegates": 25,
+    "blocktime": 4,
+    "block": {
+      "version": 0,
+      "maxTransactions": 150,
+      "maxPayload": 209715200
+    },
+    "epoch": "2020-06-16T16:58:00.119Z",
+    "fees": {
+      "staticFees": {
+        "transfer": 100,
+        "secondSignature": 100,
+        "delegateRegistration": 10000,
+        "vote": 100,
+        "multiSignature": 5000
+      }
+    },
+    "htlcEnabled": false,
+    "vendorFieldLength": 64
+  },
+  {
+    "height": 2,
+    "aip11": true,
+    "fees": {
+      "staticFees": {
+        "ipfs": 5000,
+        "multiPayment": 500,
+        "delegateResignation": 10000
+      }
+    }
+   },
+   { 
+     "height": 100000,
+     "reward": 1000
+   },
+   { 
+     "height": 1500000,
+     "aip36": true,
+     "htlcEnabled": true
+   },
+   { 
+     "height": 1600000,
+     "block": {
+           "acceptExpiredTransactionTimestamps": false
+      }
+   },
+   { 
+     "height": 1700000,
+     "reward": 1000,
+     "p2p": {
+            "minimumVersions": ["^2.6 || ^2.6.0-next.9"]
+     },
+     "block": {
+            "idFullSha256": true
+        }
+   },
+   { 
+     "height": 7776000,
+     "reward": 900
+   },
+   { 
+     "height": 23328000,
+     "reward": 800
+   },
+   { 
+     "height": 31104000,
+     "reward": 700
+   },
+   { 
+     "height": 38880000,
+     "reward": 600
+   },
+   { 
+     "height": 46656000,
+     "reward": 500
+   }, 
+   { 
+     "height": 54432000,
+     "reward": 400
+   }, 
+   {
+     "height": 62208000,
+     "reward": 300
+   },
+   {
+     "height": 69984000,
+     "reward": 200
+   },
+   {
+     "height": 77760000,
+     "reward": 100
+   },
+   {
+     "height": 85536000,
+     "reward": 0
+   }
+  
+]

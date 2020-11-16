@@ -1,0 +1,18 @@
+{
+  "name": "mainnet",
+  "messagePrefix": "INF message:\n",
+  "bip32": {
+    "public": 46090600,
+    "private": 46089520
+  },
+  "pubKeyHash": 38,
+  "nethash": "8401afa1b4f4bf1da980a04bd60e15578807c95352b39768b44e0753abed9991",
+  "wif": 46,
+  "slip44": 111,
+  "aip20": 0,
+  "client": {
+    "token": "INF",
+    "symbol": "∞",
+    "explorer": "https://explorer.infinitysolutions.io/#/"
+  }
+}
