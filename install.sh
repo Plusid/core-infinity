@@ -216,7 +216,7 @@ echo 'alias infinity="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashr
 rm -rf "$HOME/core-bridgechain"
 git clone "https://github.com/Plusid/core-infinity" "$HOME/core-bridgechain" || FAILED="Y"
 if [ "$FAILED" == "Y" ]; then
-    echo "Failed to fetch core repo with origin 'https://github.com/Plusid/core-master-infinity'"
+    echo "Failed to fetch core repo with origin 'https://github.com/Plusid/core-infinity'"
 
     exit 1
 fi
