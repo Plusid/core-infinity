@@ -16,7 +16,7 @@ export const defaults = {
          * If you experience issues with the cache timeout, which is indicated by a 503 status codes,
          * you should consider upgrading your hardware or tweak your PostgreSQL settings.
          */
-        generateTimeout: process.env.CORE_API_CACHE_TIMEOUT || 4000,
+        generateTimeout: process.env.CORE_API_CACHE_TIMEOUT || 8000,
     },
     // @see https://hapijs.com/api#-serveroptionstls
     ssl: {
@@ -30,7 +30,7 @@ export const defaults = {
     rateLimit: {
         enabled: !process.env.CORE_API_RATE_LIMIT,
         pathLimit: false,
-        userLimit: process.env.CORE_API_RATE_LIMIT_USER_LIMIT || 10000,
+        userLimit: process.env.CORE_API_RATE_LIMIT_USER_LIMIT || 100,
         userCache: {
             expiresIn: process.env.CORE_API_RATE_LIMIT_USER_EXPIRES || 60000,
         },
