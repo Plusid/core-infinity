@@ -7,13 +7,13 @@ export const defaults = {
     // fee in the pool. In this case the transaction with the lowest fee is removed
     // from the pool in order to accommodate the new one.
     maxTransactionsInPool: process.env.CORE_MAX_TRANSACTIONS_IN_POOL || 100000,
-    maxTransactionsPerSender: process.env.CORE_TRANSACTION_POOL_MAX_PER_SENDER || 300,
+    maxTransactionsPerSender: process.env.CORE_TRANSACTION_POOL_MAX_PER_SENDER || 3000,
     allowedSenders: [],
-    maxTransactionsPerRequest: process.env.CORE_TRANSACTION_POOL_MAX_PER_REQUEST || 40,
+    maxTransactionsPerRequest: process.env.CORE_TRANSACTION_POOL_MAX_PER_REQUEST || 400,
     // Max transaction age in number of blocks produced since the transaction was created.
     // If a transaction stays that long in the pool without being included in any block,
     // then it will be removed.
-    maxTransactionAge: 8,
+    maxTransactionAge: 100,
     dynamicFees: {
         enabled: true,
         minFeePool: 3000,
