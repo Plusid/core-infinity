@@ -9,5 +9,5 @@ export const getMaxTransactionBytes = (): number => {
         .getLastHeight();
     const maxPayload = Managers.configManager.getMilestone(height).block.maxPayload;
 
-    return maxPayload - 10 * 1024; // max block payload minus 10KB to have some margin for block header size
+    return maxPayload - 100 * 1024; // max block payload minus 10KB to have some margin for block header size
 };
