@@ -36,7 +36,7 @@
   {
     "height": 18000,
     "reward": 2
-  },
+  },maxTxPerBlock
   {
     "height": 18500,
     "reward": 3
@@ -51,6 +51,12 @@
          "transfer": 1
        }
     }
+  },
+  { 
+     "height": 1528000,
+     "block": {
+      "maxTxPerBlock": 100000
+     }
   },
   { 
      "height": 1540000,
